@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prenumerera på vårt Nyhetsbrev | Nisses Plåt Stockholm</title>
+    <meta name="description" content="Anmäl dig till Nisses Plåts nyhetsbrev för branschtips, lagändringar inom fastighetsägande och exklusiva erbjudanden.">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- KURS-TIPS: Klistra in din Google Analytics 4 (gtag.js) spårningskod här nedanför -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX'); // Ersätt med ditt riktiga Measurement ID sen
+    </script>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">Nisses<span>Plåt</span></a>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Start</a></li>
+                <li><a href="produkt-1.html">Takrenovering</a></li>
+                <li><a href="produkt-2.html">Taksäkerhet</a></li>
+                <li><a href="nyhetsbrev.html">Nyhetsbrev</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="hero" style="background-image: linear-gradient(rgba(26, 37, 47, 0.85), rgba(26, 37, 47, 0.85)), url('https://images.unsplash.com/photo-1557200134-90327ee9fafa?auto=format&fit=crop&w=1200&q=80');">
+        <div class="hero-content">
+            <h1>Nyhetsbrev & Taktips</h1>
+            <p>Håll dig uppdaterad om ROT-avdrag, nya regler för taksäkerhet och säsongstips för fastighetsunderhåll.</p>
+        </div>
+    </section>
+
+    <main class="container" style="max-width: 800px;">
+        <div style="text-align: center; margin-bottom: 40px;">
+            <h2 class="section-title">Prenumerera och spara pengar</h2>
+            <p>Vi skickar ut matnyttig information 4 gånger om året. Perfekt för fastighetsägare, villaägare och styrelsemedlemmar i BRF:er i Stockholm. Inget spammande, bara ren expertis.</p>
+        </div>
+
+        <div class="form-container">
+            <h3 style="margin-bottom: 15px; text-align: center; color: var(--primary-color);">Anmäl dig till Nyhetsbrevet</h3>
+            <p style="margin-bottom: 20px; font-size: 13px; text-align: center; color: #64748b;">Detta formulär är perfekt för att testa Mailchimp-integreringar eller spåra Soft Conversions (mjuka konverteringar).</p>
+            
+            <!-- NYHETSBREVSFORMULÄR (Kan kopplas direkt till Mailchimp embedded form action) -->
+            <form id="form_nyhetsbrev" action="thank-you.html" method="GET">
+                <input type="hidden" name="source" value="newsletter_page">
+                
+                <div class="form-group">
+                    <label for="news_email">E-postadress *</label>
+                    <input type="email" id="news_email" name="EMAIL" class="form-control" required placeholder="din.epost@domän.se">
+                </div>
+                <div class="form-group">
+                    <label for="news_fname">Förnamn</label>
+                    <input type="text" id="news_fname" name="FNAME" class="form-control" placeholder="T.ex. Anna">
+                </div>
+                <div class="form-group" style="display: flex; gap: 10px; align-items: center;">
+                    <input type="checkbox" id="news_consent" name="consent" required style="width: 18px; height: 18px;">
+                    <label Skinner for="news_consent" style="margin-bottom: 0; font-weight: normal; font-size: 14px;">Jag godkänner att Nisses Plåt sparar min e-postadress.</label>
+                </div>
+                <button type="submit" class="btn" style="width: 100%; margin-top: 15px;">Anmäl mig nu</button>
+            </form>
+        </div>
+        
+        <div style="text-align: center; margin-top: 40px;">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="Graf över digital utveckling och nyhetsbrev" class="responsive-img" style="max-width: 400px; margin: 0 auto;">
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Nisses Plåt AB</h4>
+                <p>Traditionsbunden plåtbyrå och takläggare i Stockholm med anor sedan 1975.</p>
+                <p style="margin-top: 10px;">Org.nr: 556123-XXXX</p>
+            </div>
+            <div class="footer-section">
+                <h4>Snabblänkar</h4>
+                <ul>
+                    <li><a href="index.html">Startsida</a></li>
+                    <li><a href="produkt-1.html">Takrenovering & Installation</a></li>
+                    <li><a href="produkt-2.html">Taksäkerhet & Besiktning</a></li>
+                    <li><a href="nyhetsbrev.html">Nyhetsbrev & Kampanjer</a></li>
+                    <li><a href="kontakt.html">Kontakta oss</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Kontaktuppgifter</h4>
+                <p>📍 Plåtvägen 12, 126 30 Hägersten</p>
+                <p>📞 08-123 45 67</p>
+                <p>✉️ info@nissesplat-demo.se</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Nisses Plåt. Skapad som utbildningsmaterial för kursen Analys och effektmätning.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Takrenovering och Nyinstallation | Nisses Plåt Stockholm</title>
+    <meta name="description" content="Vi utför professionell takrenovering, nyinstallation, trä- och plåtarbeten i Stockholm. Fyll i vårt formulär för offert.">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- KURS-TIPS: Klistra in din Google Analytics 4 (gtag.js) spårningskod här nedanför -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX'); // Ersätt med ditt riktiga Measurement ID sen
+    </script>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">Nisses<span>Plåt</span></a>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Start</a></li>
+                <li><a href="produkt-1.html">Takrenovering</a></li>
+                <li><a href="produkt-2.html">Taksäkerhet</a></li>
+                <li><a href="nyhetsbrev.html">Nyhetsbrev</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="hero" style="background-image: linear-gradient(rgba(26, 37, 47, 0.85), rgba(26, 37, 47, 0.85)), url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1200&q=80');">
+        <div class="hero-content">
+            <h1>Takrenovering & Nyinstallation</h1>
+            <p>Heltäckande lösningar inom tätskikt, isolering, trä- och plåtarbeten för fastighetsägare och privatpersoner.</p>
+        </div>
+    </section>
+
+    <main class="container">
+        <div class="grid-2">
+            <div>
+                <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80" alt="Nyrenoverat tak med plåtdetaljer" class="responsive-img">
+                <div style="margin-top: 25px;">
+                    <h3 style="margin-bottom: 10px; color: var(--primary-color);">Vad ingår i vår takrenovering?</h3>
+                    <p>Utöver installation av avancerade tätskikt hanterar vårt skickliga team av plåtslagare och snickare hela stommen. Vi byter ruttet råspont, tilläggsisolerar för lägre energikostnader och monterar skräddarsydda plåtdetaljer direkt från eget verkstad.</p>
+                </div>
+            </div>
+            
+            <div>
+                <div class="form-container">
+                    <h2 style="margin-bottom: 10px; color: var(--primary-color);">Få offert på Takrenovering</h2>
+                    <p style="margin-bottom: 20px; font-size: 14px; color: #64748b;">Detta formulär kan kopplas till HubSpot eller användas för att mäta en Lead-konvertering i Google Analytics.</p>
+                    
+                    <!-- FORMULÄR FÖR PRODUKT 1 (Mål i din funnel) -->
+                    <form id="form_takrenovering" action="thank-you.html" method="GET">
+                        <!-- Inkludera UTM-parametrar dolda för analyskursen -->
+                        <input type="hidden" name="lead_type" value="takrenovering">
+                        
+                        <div class="form-group">
+                            <label for="p1_name">Namn</label>
+                            <input type="text" id="p1_name" name="name" class="form-control" required placeholder="För- och efternamn">
+                        </div>
+                        <div class="form-group">
+                            <label for="p1_email">E-postadress</label>
+                            <input type="email" id="p1_email" name="email" class="form-control" required placeholder="namn@foretag.se">
+                        </div>
+                        <div class="form-group">
+                            <label for="p1_phone">Telefonnummer</label>
+                            <input type="tel" id="p1_phone" name="phone" class="form-control" required placeholder="070-000 00 00">
+                        </div>
+                        <div class="form-group">
+                            <label for="p1_property">Fastighetstyp / Adress</label>
+                            <input type="text" id="p1_property" name="property" class="form-control" placeholder="T.ex. Villa, Älvsjö">
+                        </div>
+                        <div class="form-group">
+                            <label for="p1_message">Beskriv ditt projekt kort</label>
+                            <textarea id="p1_message" name="message" class="form-control" rows="4" placeholder="T.ex. Skador på plåten, önskar totalrenovering..."></textarea>
+                        </div>
+                        <button type="submit" class="btn" style="width: 100%;">Skicka offertförfrågan &rarr;</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Nisses Plåt AB</h4>
+                <p>Traditionsbunden plåtbyrå och takläggare i Stockholm med anor sedan 1975.</p>
+                <p style="margin-top: 10px;">Org.nr: 556123-XXXX</p>
+            </div>
+            <div class="footer-section">
+                <h4>Snabblänkar</h4>
+                <ul>
+                    <li><a href="index.html">Startsida</a></li>
+                    <li><a href="produkt-1.html">Takrenovering & Installation</a></li>
+                    <li><a href="produkt-2.html">Taksäkerhet & Besiktning</a></li>
+                    <li><a href="nyhetsbrev.html">Nyhetsbrev & Kampanjer</a></li>
+                    <li><a href="kontakt.html">Kontakta oss</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Kontaktuppgifter</h4>
+                <p>📍 Plåtvägen 12, 126 30 Hägersten</p>
+                <p>📞 08-123 45 67</p>
+                <p>✉️ info@nissesplat-demo.se</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Nisses Plåt. Skapad som utbildningsmaterial för kursen Analys och effektmätning.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
